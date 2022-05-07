@@ -1,8 +1,50 @@
 :root {
+  --background: #000000;
+  --background-optin: rgba(255, 255, 255, 0.15);
+
+  --text-subtitle: #ffffff;
+  --text-description: #ffffff;
+  --text-highlight: #00bcd4;
+  --text-button: #ffffff;  
+  
+  --spacing-small: 5px;
+  --spacing-normal: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 30px;
+
+  --rouded-small: 10px;
+  --rouded-normal: 20px;
+  --circle: 100%;
+
+  --button: #4527a0;
+
+  /* 
+  rgba(255, 255, 255, 0.15);
+  --background-optin: #7967b1;
   --primary: #ebc908;
+  --background: #26136e;
   --primary-text: #1a1a1a;
   --secondary: #ff1dec;
   --secondary-text: #ffffff;
   --accent: #505050;
   --accent-text: #ffffff;
+  --background-c: #341e77;
+*/
+}
+
+.shadow-box {
+  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-text {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Social Nav */
+.social {
+  margin: 0 5px;
+}
+
+.twitter {
+  border-radius: 100%;
 }
